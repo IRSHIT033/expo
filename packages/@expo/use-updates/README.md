@@ -28,7 +28,7 @@ export default function UpdatesDemo() {
   const showDownloadButton = availableUpdate !== undefined;
 
   // Show whether or not we are running embedded code or an update
-  const runTypeMessage = updatesInfo.currentlyRunning.isEmbeddedLaunch
+  const runTypeMessage = currentlyRunning.isEmbeddedLaunch
     ? 'This app is running from built-in code'
     : 'This app is running an update';
 
